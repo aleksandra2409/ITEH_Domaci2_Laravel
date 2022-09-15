@@ -22,7 +22,7 @@ class MovieFactory extends Factory
         return [
             'name' => $this->faker->word(),
             'description' => $this->faker->paragraph(),
-            'year' => $this->faker->word(),
+            'year' => $this->faker->year(),
             'producer_id' => Producer::factory(),
             'genre_id' => Genre::factory(),
             'user_id' => User::factory()        ];
