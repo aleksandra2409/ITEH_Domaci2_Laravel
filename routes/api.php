@@ -1,5 +1,5 @@
 <?php
-
+use App\Http\Controllers\API\AuthController;
 use App\Http\Controllers\GenreController;
 use App\Http\Controllers\GenreMovieController;
 use App\Http\Controllers\MovieController;
